@@ -1,22 +1,26 @@
 body {
   font-family: "Indie Flower", cursive;
   padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lavagna {
-  background: darkgray;
+  background: rgb(69, 69, 69);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: space-evenly;
+  max-width: 60%;
 }
 
 .postit {
   background: #eae766;
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   padding: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   font-size: 1.5rem;
